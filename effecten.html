@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourYinYang</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body class="min-h-screen overflow-x-hidden w-screen">
+    <!-- Navbar -->
+    <nav class="navbar h-0">
+        <div class="absolute w-full flex z-50 justify-between items-center px-4 pt-4 lg:bg-white lg:top-20 lg:w-11/12 lg:right-0 lg:h-32 lg:p-0">
+            <picture>
+                <source media="(min-width:1024px)" srcset="./images/logoTextRechts.svg">
+                <source media="(min-width:768px)" srcset="./images/logo_rood.svg">
+                <a href="./index.html">
+                    <img src="./images/logoTextRechts.svg" alt="Logo YourYinYang" class="h-16 lg:h-20 lg:ml-8 xl:h-32 xl:ml-0">
+                </a>
+            </picture>
+            <div class="lg:hidden">
+                <div class="mobile-menu-button block lg:hidden text-center w-12 h-12 scale-75 mt-1 mr-2.5 item-center relative top-2">
+                    <span class="icon-top w-full h-1.5 bg-[#B51729] block absolute rounded origin-center"></span>
+                    <span class="icon-bottom w-full h-1.5 bg-[#B51729] block absolute rounded origin-center top-4"></span>
+                    <span class="text text-[#B51729] block absolute -bottom-0.5 text-base tracking-wide w-12">Menu</span>
+                </div>
+            </div>
+            <div class="hidden lg:block">
+                <ul class="flex flex-row pr-8 lg:pr-12 xl:pr-20">
+                    <li class="mx-2.5 lg:mx-4"><a class="hover:opacity-50 duration-150" href="./effecten.html">Effecten</a></li>
+                    <li class="mx-2.5 lg:mx-4"><a class="hover:opacity-50 duration-150" href="./over-mij.html">Even voorstellen</a></li>
+                    <li class="mx-2.5 lg:mx-4"><a class="hover:opacity-50 duration-150" href="./gezondheidsklachten.html">gezondheidsklachten</a></li>
+                    <li class="mx-2.5 lg:mx-4"><a class="hover:opacity-50 duration-150" href="./werkwijze.html">Werkwijze</a></li>
+                    <li class="mx-2.5 lg:mx-4"><a class="hover:opacity-50 duration-150" href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mobile-menu lg:hidden relative h-screen w-screen">
+            <ul class="flex flex-col items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                <li class="mb-4"><a class="hover:opacity-50 duration-150" href="./effecten.html">Effecten</a></li>
+                <li class="mb-4"><a class="hover:opacity-50 duration-150" href="./over-mij.html">Even voorstellen</a></li>
+                <li class="mb-4"><a class="hover:opacity-50 duration-150" href="./gezondheidsklachten.html">gezondheidsklachten</a></li>
+                <li class="mb-4"><a class="hover:opacity-50 duration-150" href="./werkwijze.html">Werkwijze</a></li>
+                <li class="mb-4"><a class="hover:opacity-50 duration-150" href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero image -->
+    <div id="page_content" class="relative relative w-full mb-12 border-b-2 pb-12 lg:border-none lg:pb-0 lg:mb-6">
+        <div id="page_image" class="relative h-[60vh] bg-[url('./images/hero-image.jpg')] bg-cover bg-center lg:w-1/2 lg:float-left"></div>
+        <h1 class="text-white absolute left-1/2 top-[30vh] text-3xl font-bold -translate-x-1/2 lg:hidden">Effecten</h1>
+        <div class="relative container mx-auto px-8 mt-12 md:px-20 lg:float-left lg:w-1/2 lg:mt-64">
+            <h2 class="text-[#B51729] font-bold text-3xl mb-6">Effecten</h2>
+            <p class="text-black max-w-lg mb-3">
+                De behandelingen hebben vaak veel van onderstaande effecten tot gevolg:
+                <ul class="list-disc px-6">
+                    <li class="mb-1">afname van veel voorkomende klachten aan rug, nek, schouder, arm en been</li>
+                    <li class="mb-1">verminderde pijn</li>
+                    <li class="mb-1">verhoogde ontspanning (verminderde stress)</li>
+                    <li class="mb-1">verbeterde energiestroming (beter in je vel zittend)</li>
+                    <li class="mb-1">gebruik van andere voeding (letterlijk en figuurlijk)</li>
+                    <li class="mb-1">nieuwe inzichten en veranderingen in gedrag en overtuigingen</li>
+                    <li class="mb-1">bewuster voelen van lichaam en geest</li>
+                    <li class="mb-1">verbeterde houding</li>
+                    <li class="mb-1">verminderde gewrichtsklachten</li>
+                    <li class="mb-1">gewichtsafname</li>
+                    <li class="mb-1">verbeterde werking van organen en afweersysteem</li>
+                    <li class="mb-1">soepelere spieren</li>
+                    <li class="mb-1">toegenomen lenigheid</li>
+                    <li class="mb-1">verbeterde doorbloeding</li>
+                    <li class="mb-1">afvoer van afvalstoffen</li>
+                </ul>
+            </p>
+        </div>
+        <div class="clear-both"></div>
+    </div>
+
+    <div class="py-4 mx-auto container max-w-xl sm:flex sm:justify-around">
+        <span class="w-auto text-center block sm:float-left sm:mr-10">06-12144084</span>
+        <div class="w-auto text-center block sm:float-left pt-4 sm:p-0 sm:mr-10">
+            <a href="#" class="underline mb-20 hover:opacity-50 duration-150">
+                info@youryinyang.nl
+            </a>
+            <div class="pt-2">
+                <a href="#" class="underline mr-4 hover:opacity-50 duration-150">
+                    LinkedIn
+                </a>
+                <a href="#" class="underline hover:opacity-50 duration-150">
+                    Facebook
+                </a>
+            </div>
+        </div>
+        <span class="w-auto text-center block sm:float-left pt-4 sm:p-0">kvk-nr 54294029</span>
+        <div class="clear-both"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
